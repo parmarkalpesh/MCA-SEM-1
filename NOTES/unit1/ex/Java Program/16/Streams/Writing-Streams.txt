@@ -1,0 +1,25 @@
+OutputStream and Writer
+*) Both are used to write the data in streams.
+*) Both are implementing Flushable and Closeable Interface.
+*) Writer class Implements Appendable interface.
+*) flush() is method which is used to ensure data written to streams are persisted.
+*) close() method is used to free the resource taken by stream.
+
+
+OutputStream			Writer
+-------------------			-------------
+void write(int)			void write(int)
+void write(byte[])		void write(char[])
+void write(byte[],int offset,int length) 	void write(char[],int offset,int length)
+void flush()			void write(String)
+void close()			void write(String,int offset,int length)
+				void append(char)
+				void append(CharSequence)
+				void append(CharSequence,int offset, int length)
+				void flush()
+				void close()
+
+
+
+
+

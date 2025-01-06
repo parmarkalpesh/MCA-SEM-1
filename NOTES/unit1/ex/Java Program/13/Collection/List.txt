@@ -1,0 +1,23 @@
+List interface extends from Collection
+- It has all the methods of Collection and
+	has additional methods for index operations.
+*) List has additional methods for
+add, remove, and modified objects based on index.
+*) List allows duplicate elements...
+
+	void add(int index, Object o)
+	Object set(int index,Object o)
+	Object get(int index)
+	Object remove(int index)
+	int indexOf(Object o)
+	List subList(int start,int end)
+	ListIterator listIterator()
+
+
+
+
+
+
+
+
+

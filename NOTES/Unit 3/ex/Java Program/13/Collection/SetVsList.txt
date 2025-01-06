@@ -1,0 +1,11 @@
+	Set 			List
+*) Unique			*) May contain duplicate
+*) Unordered			*) Ordered (Based on index)
+*) No new additional		*) Additional methods
+*) Can use only Iterator	*) Can use both Iterator and ListIterator
+	to get each element
+*) Subclass of Set are		*) Subclss of List
+	HashSet			      ArrayList	
+	TreeSet from SortedSet	      LinkedList
+*)Example			*)Example
+	Set s = new HashSet()	    List l = new ArrayList();	

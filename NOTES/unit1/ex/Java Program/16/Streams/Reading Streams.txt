@@ -1,0 +1,27 @@
+InputStream and Reader
+*) Both are used to read the data in streams.
+*) Both are implementing Closeable Interface.
+*) read() and skip() are blocking method
+*) read() returns an integer range from 0 to 255.
+*) read() returns -1 at end of file.
+*) available() returns no of bytes that are remaining for reading.
+*) close() method is used to free the resource taken by stream.
+
+
+InputStream			 Reader
+-------------------		 -------------
+int read()			 int read()
+int read(byte[])		 int read(char[])
+int read(byte[],int pos,int len) int read(byte[],int pos,int len)
+int available()			 long skip(long count)	
+long skip(long count)
+boolean markSupported()		 boolean markSupported()
+void mark(int readLimit)	 void mark(int readLimit)
+void reset()			 void reset()
+void close()			 void close()
+
+
+
+
+
+

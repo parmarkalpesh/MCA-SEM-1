@@ -1,0 +1,6 @@
+Collection : It is a collection of an object
+Collection<Integer> : It is a collection of an Integer Type Only
+Collection<Person> : It is a collection of a Person
+Collection<?> : It is a collection of any kind of an object
+Collection<? extends Person> Person + Subclass of Person
+Collection<? super Allrounder> Allrounder + Cricketor + Person 

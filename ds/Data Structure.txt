@@ -1,0 +1,52 @@
+Structure of Data Structure
+-primitive
+
+-Non Primitive dat structure
+	-Linear
+		-Ststic
+			-Array
+		-Dynamic
+			-Linked List
+			-Stack
+			-Queue
+	-Non-linear
+		-Tree
+		-Graph
+
+
+satck
+lifo principle
+push O(1)
+pop
+peek
+
+
+
+HackerRank
+Skillup
+ 
+
+freecodecamp
+
+Maths
+FActorial
+primenumber
+gcd
+lcm
+powers
+
+
+arrys
+linklist
+stack
+queues
+
+algorithm
+searching
+sorting
+backtrakinng
+recursion
+
+
+trees
+graphs

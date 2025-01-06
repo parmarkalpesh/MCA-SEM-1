@@ -1,0 +1,31 @@
+Iterator 			ListIterator
+*) Iterator is used to iterat	*) ListIterator can be used to iterate
+  an element in forward		  an elements in forwad and backward.
+   direction only.
+	
+*) It inherits from Iterable	*) It inherits from Iterator
+*) Iterator is available in 	*) It is used by only class or interface					
+	Collection framework.	   which are implementing ListIterface.
+*) We can remove only current   *) We can remove,add, and replace any element 
+	element.			as per index.
+*) We cannot get any index	*) We can get previousIndex() and nextIndex() using
+	using Iterator.	   		List Iterator
+
+Collection c = new ArrayList()		List l = new ArrayList()
+c.add(10);				l.add(10);
+c.add(20);				l.add(0,20);
+.						.
+Iterator i = c.iterator()		ListIterator li = l.listIterator();
+while(i.hasNext())			while(li.hasNext())
+	System.out.println(i.next());	{
+						System.out.println(li.next());
+						System.out.println
+							(li.nextIndex());
+					}
+
+
+
+
+
+
+

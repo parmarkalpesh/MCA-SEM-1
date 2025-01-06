@@ -1,0 +1,15 @@
+		Vector			ArrayList
+		======			=========
+Thread Safety	Yes			No
+Performance	Slow			Fast
+Data Growth 	It grows by default 	It grows half of its size
+		double double when	when resize.
+		resize.			(Increment By 50%)
+Synchronized	Yes			No
+Version		from first edition	Java 1.2 onwards
+Element Iterate	We can use Enumeration,		Iterator and ListIterator
+		Iterator and ListIterator
+		
+		addElement()		add(index,Object)
+		
+		

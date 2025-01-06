@@ -1,0 +1,52 @@
+write a simple procedure without any parameter then show a user define message on the screen call the procedure using separate pl/sql block
+
+
+syntax:-
+create or replace procedure <name>
+is
+begin
+end;
+/
+
+
+write pl/sql block which display all records of male employees working in in hr department from the employee table
+
+write a pl/sql block to delete the records of an employee for a given employee id
+
+*******Theory*****
+what is a cursor?
+->cursor is a memory area which is use to store the records return by sql query.
+->The Main use of cursor is perform operation on more than 1 row in PL block.
+
+How to write down Cursor?
+===================
+=>Declaring cursor
+	->cursor <cursor_name> IS Select  */fields from <table_name>
+=>open cursor
+	->open <cursor_name>
+=>fetch the record by the cursor
+	->fetch <cursor_name> into var_1,var_2,...n;
+	->looping statement
+=>other process(optional)
+=>close the cursor
+	->close <cursor_name>
+
+
+Attributes of Cursor:-
+
+1) %ISOPEN :-its return true if cursor is open an calls if cursor is close.
+Syntax:-<cursor_name> %ISOPEN
+
+2) %FOUND :- its return true is successfully page has been executed other wise
+Syntax:-<cursor_name> %ISFOUND
+
+3) %NOTFOUND :- it will return true if no row was return calls if successfully page has been executed.
+Syntax:-<cursor_name> %ISNOTFOUND
+
+4)%ROWCOUNT :- it return number of rows effected by the query
+Syntax:-<cursor_name> %ISROWCOUNT
+
+
+
+write a pl/sql block cursor attributes %rowcount to raice basic salry of employee by 10% that are working in dept number 10 and also display the appropriate message based on the existing of the recored in the emp table
+

@@ -1,0 +1,7 @@
+Byte Stream (Binary Stream)
+1) InputStream : It is used to read data in byte stream.
+2) OutputStream : It is used to write data in byte stream.
+
+Char Stream
+1) Reader : It is used to read data in char stream.
+2) Writer : It is used to write data in char stream.

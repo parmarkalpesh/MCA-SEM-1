@@ -1,0 +1,13 @@
+Set Interface
+*) Set is an interface extends from Collection.
+*) It has no additional methods, it has all the methods of
+	Collection.
+*) It is collection of an unique elements only.
+*) HashSet is a class which implements Set interface.
+
+SortedSet interface
+===================
+*) SortedSet interface extends from Set interface.
+*) It is used to arrange unique set of collection
+	in ascending order.
+*) TreeSet is a class which implements SortedSet interface

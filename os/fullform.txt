@@ -1,0 +1,37 @@
+    OS: Operating System
+    PCB: Process Control Block
+    CPU: Central Processing Unit
+    RAM: Random Access Memory
+    I/O: Input/Output
+    RAID: Redundant Array of Independent Disks
+    FIFO: First-In-First-Out
+    LRU: Least Recently Used
+    FCFS: First-Come-First-Served
+    SJF: Shortest Job First
+    RR: Round Robin
+
+Memory Management:
+TLB: Translation Lookaside Buffer
+DMA: Direct Memory Access
+MMU: Memory Management Unit
+Security:
+ACL: Access Control List
+IDS: Intrusion Detection System
+VPN: Virtual Private Network
+RSA: Rivest-Shamir-Adleman (Encryption Algorithm)
+AES: Advanced Encryption Standard
+File Systems:
+FAT: File Allocation Table
+NTFS: New Technology File System
+EXT: Extended File System
+Concurrency and Deadlocks:
+P: Proberen (Dutch for "to test" in semaphore operations)
+V: Verhogen (Dutch for "to increment" in semaphore operations)
+DFS: Depth-First Search
+Disk Scheduling:
+C-SCAN: Circular SCAN
+SCAN: Elevator Algorithm
+Networking and Processes:
+IPC: Inter-Process Communication
+UDP: User Datagram Protocol
+TCP: Transmission Control Protocol

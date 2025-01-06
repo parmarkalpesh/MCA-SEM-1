@@ -1,0 +1,16 @@
+class Test extends Thread
+{
+	Test()
+	{
+		super(); // NEW or BORN
+		start();
+	}
+	//Runnable State
+	public void run()
+	{
+		try{
+		Thread.sleep(5000); // BLOCKED
+		}catch(Exception e){}
+	}
+	//DEAD
+}

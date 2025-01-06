@@ -1,0 +1,31 @@
+
+	Map Interface : 
+		*) It is collection of key and value.
+		*) It maintains value based on key.
+		*) It is collection of unique key.
+		*) It has key and value both are Object.
+	Methods
+	=======
+		Object put(Object key,Object value)
+		Object get(Object Key)
+		Object remove(Object Key)
+		boolean isEmpty()
+		void clear()
+		Set entrySet()
+		Collection values()
+		void putAll(Map m)		
+
+	Map.Entry Interface
+	=============
+		Object getKey()
+		Object getValue()
+		Object setValue(Object o)
+		int hashCode()
+		boolean equals()
+		
+
+
+
+
+
+
